@@ -1,0 +1,50 @@
+補天SRC公益漏洞報告演示頁面
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>補天 SRC 公益漏洞報告演示</title>
+    <style>
+        body {background:#0f172a; color:white; font-family:Arial; padding:20px; margin:0;}
+        .box {background:#1e2937; padding:35px; border-radius:16px; max-width:720px; margin:30px auto; box-shadow:0 10px 30px rgba(0,0,0,0.5);}
+        h1 {color:#60a5fa; text-align:center; margin-bottom:10px;}
+        h2 {color:#f87171; text-align:center;}
+        .demo-box {background:#334155; padding:25px; border-radius:12px; margin:25px 0; border-left:6px solid #f87171;}
+        .fake-link {color:#60a5fa; text-decoration:underline; font-size:19px; cursor:pointer;}
+        .note {color:#94a3b8; line-height:1.7;}
+        .footer {text-align:center; margin-top:50px; color:#64748b; font-size:14px;}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>補天 SRC</h1>
+        <h2>公益漏洞報告演示頁面</h2>
+        
+        <div class="demo-box">
+            <h3>🔴 漏洞演示</h3>
+            <p>請長按或點擊下面這行「藍色連結」：</p>
+            <p><span class="fake-link">🔗 管理後台登入系統 - 請點擊進入</span></p>
+            <p class="note">※ 注意：雖然顯示為可點擊的連結（有顏色、有底線），但實際上這個連結是無法點擊的。</p>
+        </div>
+
+        <h3>漏洞類型</h3>
+        <p>視覺欺騙型漏洞 (Visual Spoofing / Fake Clickable Link)</p>
+
+        <h3>漏洞危害</h3>
+        <ul>
+            <li>可誘導用戶點擊假冒的後台管理連結</li>
+            <li>容易結合釣魚攻擊使用</li>
+            <li>嚴重影響平台信任度</li>
+        </ul>
+
+        <div class="footer">
+            報告人：butianhk<br>
+            演示倉庫：butian-demo<br>
+            提交日期：2026年10月31日
+        </div>
+    </div>
+</body>
+</html>
